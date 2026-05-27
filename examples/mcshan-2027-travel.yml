@@ -1,0 +1,40 @@
+family: mcshan
+year: 2027
+status: draft_example
+planning_principles:
+  - "Prefer slow routes with recovery days over brittle connections."
+  - "Keep booking details and private identifiers in the private family repo."
+  - "Treat housing as a learning base, not just a place to sleep."
+destinations:
+  - slug: south-africa-afrikaburn
+    gazette_id: gazette:mcshan:2027:south-africa-afrikaburn
+    starts_on: 2027-05-04
+    ends_on: 2027-05-17
+    status: needs_confirmation
+    transportation:
+      - mode: flight
+        route: "TBD to Cape Town"
+        status: research
+        notes: "Check whether dates should move once AfrikaBurn 2027 dates are official."
+      - mode: ground
+        route: "Cape Town to Tankwa Karoo"
+        status: research
+        notes: "Remote desert access needs conservative vehicle, water, and contingency planning."
+    housing:
+      - base: Cape Town
+        status: research
+        notes: "Use as arrival, provisioning, and recovery base."
+      - base: Tankwa Karoo
+        status: needs_confirmation
+        notes: "Event participation likely means self-supported camping."
+    documents:
+      - item: "Passport validity check"
+        status: todo
+      - item: "South Africa entry requirements"
+        status: todo
+    packing:
+      - item: "Desert sun, dust, cold-night, and water plan"
+        status: todo
+    risk_notes:
+      - "Do not finalize immovable bookings until event dates are confirmed."
+    gazette_note: "South Africa planning should combine desert logistics, rest buffers, and one learning thread on temporary civic systems."

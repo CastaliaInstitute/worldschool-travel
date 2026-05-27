@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CastaliaWorldSchoolTravelPlan",
+  "type": "object",
+  "required": ["family", "year", "status", "destinations"],
+  "properties": {
+    "family": { "type": "string" },
+    "year": { "type": "integer" },
+    "status": { "type": "string" },
+    "planning_principles": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "destinations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "starts_on", "ends_on", "status"],
+        "properties": {
+          "slug": { "type": "string" },
+          "gazette_id": { "type": "string" },
+          "starts_on": { "type": "string" },
+          "ends_on": { "type": "string" },
+          "status": { "type": "string" },
+          "transportation": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/transport_option" }
+          },
+          "housing": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/housing_option" }
+          },
+          "documents": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/check_item" }
+          },
+          "local_mobility": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/check_item" }
+          },
+          "packing": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/check_item" }
+          },
+          "risk_notes": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "gazette_note": { "type": "string" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "transport_option": {
+      "type": "object",
+      "required": ["mode", "status", "notes"],
+      "properties": {
+        "mode": { "type": "string" },
+        "route": { "type": "string" },
+        "status": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "housing_option": {
+      "type": "object",
+      "required": ["base", "status", "notes"],
+      "properties": {
+        "base": { "type": "string" },
+        "status": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "check_item": {
+      "type": "object",
+      "required": ["item", "status"],
+      "properties": {
+        "item": { "type": "string" },
+        "status": { "type": "string" },
+        "owner": { "type": "string" },
+        "due_on": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}
