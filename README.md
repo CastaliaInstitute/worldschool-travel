@@ -50,6 +50,17 @@ family repo.
 family travel plan. It is intentionally logistics-oriented rather than
 curriculum-oriented; the Gazette and pupil repos handle learning plans.
 
+## Destination Catalog
+
+`data/worldschool-destinations.yml` is a broad candidate catalog for future
+worldschool planning. It groups destinations by region and tags each place with
+learning threads such as ecology, public memory, geology, language, design,
+astronomy, food systems, and infrastructure.
+
+The catalog is not a live safety or booking source. Before using any destination
+for a real family plan, check current advisories, entry requirements, seasonal
+conditions, health guidance, accessibility, and family-specific constraints.
+
 ## Deployment
 
 This repo deploys by GitHub Actions to GitHub Pages. Configure the Pages custom

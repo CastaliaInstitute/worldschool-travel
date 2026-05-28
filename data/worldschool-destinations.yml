@@ -1,0 +1,584 @@
+schema_version: 1
+catalog: castalia-worldschool-destinations
+status: candidate_catalog
+notes:
+  - "This is a planning catalog, not a booking recommendation."
+  - "Before selecting a destination, check current safety, visa, health, season, cost, and family-specific constraints."
+  - "Use destinations as slow-travel bases with field days, studio days, reading days, and recovery days."
+selection_lenses:
+  - history_and_public_memory
+  - ecology_and_biodiversity
+  - geology_and_deep_time
+  - language_and_literature
+  - art_craft_design_music
+  - food_agriculture_and_trade
+  - astronomy_and_night_sky
+  - civic_systems_and_infrastructure
+  - religion_philosophy_and_ritual
+  - mathematics_engineering_and_navigation
+sources_to_check_live:
+  - name: UNESCO World Heritage List
+    url: "https://www.unesco.org/en/world-heritage/list"
+  - name: UNESCO Creative Cities Network
+    url: "https://www.unesco.org/en/creative-cities/list"
+  - name: DarkSky International Places
+    url: "https://darksky.org/what-we-do/international-dark-sky-places/"
+  - name: U.S. State Department Travel Advisories
+    url: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/"
+regions:
+  - region: north_america
+    destinations:
+      - slug: washington-dc-chesapeake
+        name: "Washington, DC and the Chesapeake"
+        countries: ["United States"]
+        threads: ["civics", "watersheds", "public memory", "museums"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: new-york-philadelphia
+        name: "New York and Philadelphia"
+        countries: ["United States"]
+        threads: ["immigration", "finance", "constitutional history", "urban systems"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: boston-concord-salem
+        name: "Boston, Concord, and Salem"
+        countries: ["United States"]
+        threads: ["revolution", "transcendentalism", "maritime trade", "public memory"]
+        best_for: ["middle", "high"]
+      - slug: four-corners
+        name: "Four Corners and Colorado Plateau"
+        countries: ["United States"]
+        threads: ["geology", "Indigenous homelands", "water", "public lands"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: yellowstone-grand-teton
+        name: "Yellowstone and Grand Teton"
+        countries: ["United States"]
+        threads: ["geothermal systems", "wildlife", "conservation", "volcanology"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: utah-dark-sky-parks
+        name: "Utah Dark-Sky Parks"
+        countries: ["United States"]
+        threads: ["astronomy", "desert ecology", "geology", "night-sky stewardship"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: san-francisco-bay-area
+        name: "San Francisco Bay Area"
+        countries: ["United States"]
+        threads: ["technology", "immigration", "earthquakes", "marine ecology"]
+        best_for: ["middle", "high"]
+      - slug: los-angeles-channel-islands
+        name: "Los Angeles and Channel Islands"
+        countries: ["United States"]
+        threads: ["film", "water systems", "coastal ecology", "urban planning"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: chicago-great-lakes
+        name: "Chicago and the Great Lakes"
+        countries: ["United States"]
+        threads: ["architecture", "labor", "rail", "freshwater systems"]
+        best_for: ["middle", "high"]
+      - slug: new-orleans-mississippi-delta
+        name: "New Orleans and the Mississippi Delta"
+        countries: ["United States"]
+        threads: ["music", "foodways", "flood control", "diaspora"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: appalachia-great-smokies
+        name: "Appalachia and Great Smoky Mountains"
+        countries: ["United States"]
+        threads: ["biodiversity", "music", "labor", "mountain ecology"]
+        best_for: ["elementary", "middle"]
+      - slug: alaska-southeast
+        name: "Southeast Alaska"
+        countries: ["United States"]
+        threads: ["glaciers", "Tlingit and Haida cultures", "marine ecology", "climate"]
+        best_for: ["middle", "high"]
+      - slug: montreal-quebec-city
+        name: "Montreal and Quebec City"
+        countries: ["Canada"]
+        threads: ["French language", "fortified cities", "winter culture", "migration"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: vancouver-island
+        name: "Vancouver Island"
+        countries: ["Canada"]
+        threads: ["temperate rainforest", "First Nations", "marine biology", "ferries"]
+        best_for: ["elementary", "middle"]
+      - slug: canadian-rockies
+        name: "Canadian Rockies"
+        countries: ["Canada"]
+        threads: ["glaciology", "mountain ecology", "rail history", "conservation"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: mexico-city-puebla
+        name: "Mexico City and Puebla"
+        countries: ["Mexico"]
+        threads: ["Mesoamerica", "Spanish language", "foodways", "urban water"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: oaxaca
+        name: "Oaxaca"
+        countries: ["Mexico"]
+        threads: ["Zapotec history", "textiles", "food systems", "printmaking"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: yucatan
+        name: "Yucatan Peninsula"
+        countries: ["Mexico"]
+        threads: ["Maya archaeology", "cenotes", "limestone geology", "language"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: guatemala-highlands
+        name: "Guatemala Highlands"
+        countries: ["Guatemala"]
+        threads: ["Maya cultures", "volcanoes", "weaving", "Spanish immersion"]
+        best_for: ["middle", "high"]
+      - slug: costa-rica-cloud-forest
+        name: "Costa Rica Cloud Forests and Watersheds"
+        countries: ["Costa Rica"]
+        threads: ["biodiversity", "watersheds", "conservation economics", "Spanish"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: panama-canal
+        name: "Panama Canal and Isthmus"
+        countries: ["Panama"]
+        threads: ["engineering", "trade", "rainforest", "geopolitics"]
+        best_for: ["middle", "high"]
+  - region: south_america
+    destinations:
+      - slug: galapagos
+        name: "Galapagos Islands"
+        countries: ["Ecuador"]
+        threads: ["evolution", "marine ecology", "conservation", "volcanic islands"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: quito-andes
+        name: "Quito and the Ecuadorian Andes"
+        countries: ["Ecuador"]
+        threads: ["equator", "volcanoes", "colonial cities", "Indigenous markets"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: machu-picchu-sacred-valley
+        name: "Cusco, Sacred Valley, and Machu Picchu"
+        countries: ["Peru"]
+        threads: ["Inca engineering", "altitude ecology", "archaeology ethics", "Quechua"]
+        best_for: ["middle", "high"]
+      - slug: peruvian-amazon
+        name: "Peruvian Amazon"
+        countries: ["Peru"]
+        threads: ["rainforest ecology", "rivers", "Indigenous knowledge", "biodiversity"]
+        best_for: ["middle", "high"]
+      - slug: atacama
+        name: "Atacama Desert"
+        countries: ["Chile"]
+        threads: ["astronomy", "desert geology", "water scarcity", "salt flats"]
+        best_for: ["middle", "high"]
+      - slug: patagonia
+        name: "Patagonia"
+        countries: ["Chile", "Argentina"]
+        threads: ["glaciers", "wind", "conservation", "deep time"]
+        best_for: ["middle", "high"]
+      - slug: buenos-aires-montevideo
+        name: "Buenos Aires and Montevideo"
+        countries: ["Argentina", "Uruguay"]
+        threads: ["literature", "music", "immigration", "urban design"]
+        best_for: ["middle", "high"]
+      - slug: iguazu
+        name: "Iguazu Falls"
+        countries: ["Argentina", "Brazil"]
+        threads: ["waterfalls", "subtropical forests", "borders", "hydrology"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: rio-de-janeiro
+        name: "Rio de Janeiro"
+        countries: ["Brazil"]
+        threads: ["urban geography", "music", "coastal ecology", "Portuguese"]
+        best_for: ["middle", "high"]
+      - slug: amazon-manaus
+        name: "Manaus and the Central Amazon"
+        countries: ["Brazil"]
+        threads: ["rivers", "rubber history", "rainforest science", "climate"]
+        best_for: ["middle", "high"]
+      - slug: cartagena-caribbean-colombia
+        name: "Cartagena and Caribbean Colombia"
+        countries: ["Colombia"]
+        threads: ["fortified cities", "African diaspora", "trade", "coastal ecology"]
+        best_for: ["middle", "high"]
+      - slug: coffee-triangle-colombia
+        name: "Colombia Coffee Triangle"
+        countries: ["Colombia"]
+        threads: ["agriculture", "mountain ecology", "supply chains", "Spanish"]
+        best_for: ["elementary", "middle", "high"]
+  - region: europe
+    destinations:
+      - slug: london-oxford-bath
+        name: "London, Oxford, and Bath"
+        countries: ["United Kingdom"]
+        threads: ["literature", "Roman Britain", "empire", "museums"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: scotland-edinburgh-highlands
+        name: "Edinburgh and the Scottish Highlands"
+        countries: ["United Kingdom"]
+        threads: ["Enlightenment", "geology", "Gaelic culture", "landscape writing"]
+        best_for: ["middle", "high"]
+      - slug: ireland-west
+        name: "Western Ireland"
+        countries: ["Ireland"]
+        threads: ["oral tradition", "music", "Atlantic ecology", "migration"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: paris-loire
+        name: "Paris and the Loire"
+        countries: ["France"]
+        threads: ["art", "revolution", "architecture", "French language"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: provence
+        name: "Provence"
+        countries: ["France"]
+        threads: ["Roman roads", "painting", "Mediterranean agriculture", "markets"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: netherlands-belgium-water-design
+        name: "Netherlands and Belgium Water Design"
+        countries: ["Netherlands", "Belgium"]
+        threads: ["polders", "ports", "trade", "urban design"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: berlin-dresden-prague
+        name: "Berlin, Dresden, and Prague"
+        countries: ["Germany", "Czechia"]
+        threads: ["20th-century history", "music", "design", "memory"]
+        best_for: ["middle", "high"]
+      - slug: bavaria-alps
+        name: "Bavaria and the Alps"
+        countries: ["Germany", "Austria"]
+        threads: ["mountain ecology", "music", "castles", "engineering"]
+        best_for: ["elementary", "middle"]
+      - slug: vienna-budapest
+        name: "Vienna and Budapest"
+        countries: ["Austria", "Hungary"]
+        threads: ["music", "empire", "coffeehouse culture", "Danube geography"]
+        best_for: ["middle", "high"]
+      - slug: venice-florence-rome
+        name: "Venice, Florence, and Rome"
+        countries: ["Italy"]
+        threads: ["Renaissance", "republics", "classical antiquity", "urban water"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: sicily
+        name: "Sicily"
+        countries: ["Italy"]
+        threads: ["Greek and Arab-Norman history", "volcanoes", "foodways", "Mediterranean trade"]
+        best_for: ["middle", "high"]
+      - slug: andalusia
+        name: "Andalusia"
+        countries: ["Spain"]
+        threads: ["Al-Andalus", "astronomy", "geometry", "navigation"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: barcelona-catalonia
+        name: "Barcelona and Catalonia"
+        countries: ["Spain"]
+        threads: ["architecture", "language", "Mediterranean trade", "civic identity"]
+        best_for: ["middle", "high"]
+      - slug: portugal-lisbon-porto
+        name: "Lisbon and Porto"
+        countries: ["Portugal"]
+        threads: ["navigation", "earthquakes", "tilework", "Atlantic trade"]
+        best_for: ["middle", "high"]
+      - slug: athens-crete
+        name: "Athens and Crete"
+        countries: ["Greece"]
+        threads: ["democracy", "myth", "Minoan archaeology", "Mediterranean ecology"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: istanbul-cappadocia
+        name: "Istanbul and Cappadocia"
+        countries: ["Turkey"]
+        threads: ["Byzantine and Ottoman history", "geology", "trade routes", "religion"]
+        best_for: ["middle", "high"]
+      - slug: iceland-ring-road
+        name: "Iceland Ring Road"
+        countries: ["Iceland"]
+        threads: ["volcanoes", "glaciers", "sagas", "geothermal energy"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: norway-fjords
+        name: "Norway Fjords"
+        countries: ["Norway"]
+        threads: ["glaciation", "maritime culture", "hydropower", "northern ecology"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: stockholm-helsinki-tallinn
+        name: "Stockholm, Helsinki, and Tallinn"
+        countries: ["Sweden", "Finland", "Estonia"]
+        threads: ["Baltic trade", "design", "languages", "digital society"]
+        best_for: ["middle", "high"]
+      - slug: krakow-warsaw
+        name: "Krakow and Warsaw"
+        countries: ["Poland"]
+        threads: ["public memory", "music", "urban rebuilding", "Jewish history"]
+        best_for: ["high"]
+      - slug: croatia-adriatic
+        name: "Croatian Adriatic"
+        countries: ["Croatia"]
+        threads: ["Roman history", "maritime trade", "karst geology", "coastal ecology"]
+        best_for: ["elementary", "middle", "high"]
+  - region: africa
+    destinations:
+      - slug: morocco-atlas-marrakesh-fes
+        name: "Morocco: Atlas, Marrakesh, and Fes"
+        countries: ["Morocco"]
+        threads: ["Arabic and Amazigh cultures", "desert ecology", "craft", "trade routes"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: egypt-nile
+        name: "Egypt and the Nile"
+        countries: ["Egypt"]
+        threads: ["ancient history", "river civilizations", "archaeology", "desert"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: ethiopia-highlands
+        name: "Ethiopian Highlands"
+        countries: ["Ethiopia"]
+        threads: ["geology", "coffee", "Christian history", "highland ecology"]
+        best_for: ["middle", "high"]
+      - slug: kenya-rift-valley
+        name: "Kenya and the Rift Valley"
+        countries: ["Kenya"]
+        threads: ["human origins", "savanna ecology", "conservation", "Swahili"]
+        best_for: ["middle", "high"]
+      - slug: tanzania-zanzibar
+        name: "Tanzania and Zanzibar"
+        countries: ["Tanzania"]
+        threads: ["Swahili coast", "spice trade", "savanna ecology", "volcanoes"]
+        best_for: ["middle", "high"]
+      - slug: uganda-great-lakes
+        name: "Uganda and the Great Lakes"
+        countries: ["Uganda"]
+        threads: ["lake systems", "primates", "rainforest", "Nile headwaters"]
+        best_for: ["middle", "high"]
+      - slug: rwanda
+        name: "Rwanda"
+        countries: ["Rwanda"]
+        threads: ["conservation", "public memory", "language", "land restoration"]
+        best_for: ["high"]
+      - slug: ghana-accra-cape-coast
+        name: "Accra and Cape Coast"
+        countries: ["Ghana"]
+        threads: ["Atlantic history", "music", "textiles", "civic life"]
+        best_for: ["middle", "high"]
+      - slug: senegal-dakar-saint-louis
+        name: "Dakar and Saint-Louis"
+        countries: ["Senegal"]
+        threads: ["Francophone Africa", "music", "Atlantic trade", "Sahel ecology"]
+        best_for: ["middle", "high"]
+      - slug: namibia
+        name: "Namibia"
+        countries: ["Namibia"]
+        threads: ["desert ecology", "dark skies", "geology", "conservation"]
+        best_for: ["middle", "high"]
+      - slug: botswana-okavango
+        name: "Okavango Delta"
+        countries: ["Botswana"]
+        threads: ["wetlands", "wildlife", "water cycles", "conservation"]
+        best_for: ["middle", "high"]
+      - slug: south-africa-cape-town-karoo
+        name: "Cape Town, Tankwa Karoo, and Cederberg"
+        countries: ["South Africa"]
+        threads: ["desert ecology", "participatory art", "public memory", "marine systems"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: madagascar
+        name: "Madagascar"
+        countries: ["Madagascar"]
+        threads: ["endemism", "island evolution", "rainforest", "language"]
+        best_for: ["middle", "high"]
+  - region: middle_east_and_central_asia
+    destinations:
+      - slug: jordan
+        name: "Jordan"
+        countries: ["Jordan"]
+        threads: ["Nabataean history", "desert ecology", "Roman frontiers", "water"]
+        best_for: ["middle", "high"]
+      - slug: israel-palestine-public-memory
+        name: "Jerusalem and the Eastern Mediterranean"
+        countries: ["Israel", "Palestinian Territories"]
+        threads: ["religion", "archaeology", "public memory", "languages"]
+        best_for: ["high"]
+      - slug: oman
+        name: "Oman"
+        countries: ["Oman"]
+        threads: ["Indian Ocean trade", "desert and wadis", "navigation", "Arabic"]
+        best_for: ["middle", "high"]
+      - slug: uae-abu-dhabi-dubai
+        name: "Abu Dhabi and Dubai"
+        countries: ["United Arab Emirates"]
+        threads: ["urban design", "energy", "migration", "desert engineering"]
+        best_for: ["middle", "high"]
+      - slug: georgia-caucasus
+        name: "Georgia and the Caucasus"
+        countries: ["Georgia"]
+        threads: ["mountains", "wine agriculture", "scripts", "crossroads history"]
+        best_for: ["middle", "high"]
+      - slug: armenia
+        name: "Armenia"
+        countries: ["Armenia"]
+        threads: ["church architecture", "alphabet", "mountain ecology", "diaspora"]
+        best_for: ["middle", "high"]
+      - slug: uzbekistan-silk-road
+        name: "Uzbekistan Silk Road Cities"
+        countries: ["Uzbekistan"]
+        threads: ["Silk Road", "Islamic architecture", "mathematics", "trade"]
+        best_for: ["middle", "high"]
+      - slug: kazakhstan-steppe
+        name: "Kazakhstan Steppe"
+        countries: ["Kazakhstan"]
+        threads: ["steppe ecology", "nomadic history", "spaceflight", "energy"]
+        best_for: ["high"]
+  - region: asia
+    destinations:
+      - slug: kyoto-nara-osaka
+        name: "Kyoto, Nara, and Osaka"
+        countries: ["Japan"]
+        threads: ["craft", "Buddhist and Shinto sites", "urban systems", "foodways"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: tokyo
+        name: "Tokyo"
+        countries: ["Japan"]
+        threads: ["megacities", "design", "transit", "media arts"]
+        best_for: ["middle", "high"]
+      - slug: hiroshima-seto-inland-sea
+        name: "Hiroshima and the Seto Inland Sea"
+        countries: ["Japan"]
+        threads: ["peace studies", "island geography", "craft", "public memory"]
+        best_for: ["middle", "high"]
+      - slug: hokkaido
+        name: "Hokkaido"
+        countries: ["Japan"]
+        threads: ["snow ecology", "Ainu culture", "volcanoes", "agriculture"]
+        best_for: ["middle", "high"]
+      - slug: seoul-gyeongju
+        name: "Seoul and Gyeongju"
+        countries: ["South Korea"]
+        threads: ["technology", "Korean history", "language", "design"]
+        best_for: ["middle", "high"]
+      - slug: taipei-taroko
+        name: "Taipei and Taroko"
+        countries: ["Taiwan"]
+        threads: ["earthquakes", "semiconductors", "Chinese language", "mountain ecology"]
+        best_for: ["middle", "high"]
+      - slug: hong-kong-macau
+        name: "Hong Kong and Macau"
+        countries: ["China"]
+        threads: ["ports", "colonial history", "density", "Cantonese culture"]
+        best_for: ["high"]
+      - slug: beijing-xian
+        name: "Beijing and Xi'an"
+        countries: ["China"]
+        threads: ["dynastic history", "archaeology", "urban planning", "Mandarin"]
+        best_for: ["middle", "high"]
+      - slug: yunnan
+        name: "Yunnan"
+        countries: ["China"]
+        threads: ["biodiversity", "minority cultures", "tea", "mountain ecology"]
+        best_for: ["middle", "high"]
+      - slug: singapore
+        name: "Singapore"
+        countries: ["Singapore"]
+        threads: ["urban planning", "water systems", "trade", "multilingual society"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: malaysia-penang-borneo
+        name: "Penang and Malaysian Borneo"
+        countries: ["Malaysia"]
+        threads: ["rainforest", "foodways", "trade", "orangutan conservation"]
+        best_for: ["middle", "high"]
+      - slug: thailand-chiang-mai-bangkok
+        name: "Chiang Mai and Bangkok"
+        countries: ["Thailand"]
+        threads: ["Buddhist art", "rice agriculture", "markets", "river systems"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: vietnam-hanoi-hue-hoi-an
+        name: "Hanoi, Hue, and Hoi An"
+        countries: ["Vietnam"]
+        threads: ["imperial cities", "war memory", "rice systems", "craft"]
+        best_for: ["middle", "high"]
+      - slug: cambodia-angkor
+        name: "Angkor and Siem Reap"
+        countries: ["Cambodia"]
+        threads: ["Khmer history", "water engineering", "temple art", "archaeology"]
+        best_for: ["middle", "high"]
+      - slug: indonesia-bali-java
+        name: "Bali and Java"
+        countries: ["Indonesia"]
+        threads: ["volcanoes", "rice terraces", "shadow puppetry", "religion"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: india-delhi-agra-jaipur
+        name: "Delhi, Agra, and Jaipur"
+        countries: ["India"]
+        threads: ["Mughal history", "geometry", "markets", "languages"]
+        best_for: ["middle", "high"]
+      - slug: india-kerala
+        name: "Kerala"
+        countries: ["India"]
+        threads: ["spice trade", "backwaters", "monsoon", "literacy"]
+        best_for: ["middle", "high"]
+      - slug: sri-lanka
+        name: "Sri Lanka"
+        countries: ["Sri Lanka"]
+        threads: ["Buddhist history", "tea agriculture", "biodiversity", "Indian Ocean"]
+        best_for: ["middle", "high"]
+      - slug: nepal-kathmandu-pokhara
+        name: "Kathmandu and Pokhara"
+        countries: ["Nepal"]
+        threads: ["Himalayan geography", "religion", "earthquakes", "mountain ecology"]
+        best_for: ["middle", "high"]
+      - slug: bhutan
+        name: "Bhutan"
+        countries: ["Bhutan"]
+        threads: ["Himalayan ecology", "Buddhist culture", "governance", "conservation"]
+        best_for: ["middle", "high"]
+  - region: oceania
+    destinations:
+      - slug: sydney-blue-mountains
+        name: "Sydney and Blue Mountains"
+        countries: ["Australia"]
+        threads: ["harbor cities", "Aboriginal history", "eucalyptus ecology", "geology"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: great-barrier-reef
+        name: "Great Barrier Reef"
+        countries: ["Australia"]
+        threads: ["coral ecology", "climate", "marine biology", "conservation"]
+        best_for: ["middle", "high"]
+      - slug: tasmania
+        name: "Tasmania"
+        countries: ["Australia"]
+        threads: ["island ecology", "convict history", "wilderness", "Southern Ocean"]
+        best_for: ["middle", "high"]
+      - slug: uluru-red-centre
+        name: "Uluru and the Red Centre"
+        countries: ["Australia"]
+        threads: ["desert ecology", "Anangu culture", "geology", "night sky"]
+        best_for: ["middle", "high"]
+      - slug: auckland-rotorua
+        name: "Auckland and Rotorua"
+        countries: ["New Zealand"]
+        threads: ["geothermal systems", "Maori culture", "volcanoes", "Pacific navigation"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: south-island-new-zealand
+        name: "New Zealand South Island"
+        countries: ["New Zealand"]
+        threads: ["glaciers", "alpine ecology", "earthquakes", "conservation"]
+        best_for: ["elementary", "middle", "high"]
+      - slug: fiji
+        name: "Fiji"
+        countries: ["Fiji"]
+        threads: ["reef ecology", "Pacific cultures", "climate resilience", "navigation"]
+        best_for: ["middle", "high"]
+      - slug: samoa
+        name: "Samoa"
+        countries: ["Samoa"]
+        threads: ["Polynesian navigation", "volcanic islands", "language", "oral tradition"]
+        best_for: ["middle", "high"]
+  - region: polar_and_remote
+    destinations:
+      - slug: svalbard
+        name: "Svalbard"
+        countries: ["Norway"]
+        threads: ["Arctic ecology", "climate science", "polar night", "glaciers"]
+        best_for: ["high"]
+      - slug: greenland
+        name: "Greenland"
+        countries: ["Greenland"]
+        threads: ["ice sheets", "Inuit culture", "climate", "Arctic navigation"]
+        best_for: ["high"]
+      - slug: faroe-islands
+        name: "Faroe Islands"
+        countries: ["Faroe Islands"]
+        threads: ["North Atlantic ecology", "language", "weather", "fisheries"]
+        best_for: ["middle", "high"]
+      - slug: azores
+        name: "Azores"
+        countries: ["Portugal"]
+        threads: ["volcanic islands", "whales", "Atlantic weather", "navigation"]
+        best_for: ["middle", "high"]
+      - slug: canary-islands
+        name: "Canary Islands"
+        countries: ["Spain"]
+        threads: ["volcanology", "astronomy", "trade winds", "island ecology"]
+        best_for: ["middle", "high"]
